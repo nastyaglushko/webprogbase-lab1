@@ -1,1 +1,23 @@
+#content{
+    width:1000px;
+    margin:50px auto 0px;
+}
+#main-menu {
+    font-family: 'Courier New', Courier, monospace, fantasy;
+    color: burlywood;
 
+}
+#main-menu li{
+    float: left ;
+    position: relative;
+    list-style: none;
+    background: antiquewhite;
+    width: 190px;
+}
+#main-menu a{
+    text-decoration: none;
+    display: block;
+    padding: 35px 65px;
+    color: aliceblue;
+    
+}
