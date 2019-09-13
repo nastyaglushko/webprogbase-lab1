@@ -1,23 +1,48 @@
-#content{
-    width:1000px;
-    margin:50px auto 0px;
-}
-#main-menu {
-    font-family: 'Courier New', Courier, monospace, fantasy;
-    color: burlywood;
-
-}
-#main-menu li{
-    float: left ;
-    position: relative;
-    list-style: none;
-    background: antiquewhite;
-    width: 190px;
-}
-#main-menu a{
-    text-decoration: none;
-    display: block;
-    padding: 35px 65px;
-    color: aliceblue;
-    
-}
+        h3 {
+            text-align: left;
+        }
+        
+        p {
+            padding-right: 5cm;
+        }
+        
+        body {
+            background-color: rgba(255, 248, 238, 0.979);
+            overflow: scroll;
+        }
+        
+        #content {
+            width: 1000px;
+            margin: 50px auto 0px;
+        }
+        
+        #menu {
+            color: rgb(187, 126, 46);
+            padding-left: 5cm;
+            padding-top: 0cm;
+            font-family: 'Cabin', sans-serif;
+        }
+        
+        #menu li {
+            text-align: center;
+            float: left;
+            position: relative;
+            list-style: none;
+            width: 190px;
+        }
+        
+        #menu a {
+            font-weight: bold;
+            font-size: 15px;
+            text-decoration: rgb(0, 0, 0);
+            display: block;
+            color: rgb(71, 35, 2);
+            background-color: rgba(238, 169, 99, 0.904);
+            padding: 15px;
+            border: 1px solid rgb(122, 64, 9)
+        }
+        
+        #menu a:hover {
+            background-color: rgb(255, 212, 155);
+            font-size: 16px;
+        }
