@@ -2,12 +2,6 @@
             text-align: left;
         }
         
-        /* p {
-            font-size:15px;
-            
-            padding-right: 5cm;
-        } */
-        
         body {
             overflow: scroll;
         }
@@ -24,7 +18,7 @@
             font-family: 'Cabin', sans-serif;
             position: relative;
             left: 150px;
-            top: -10px;
+            top: -1px;
         }
         
         #menu li {
@@ -35,7 +29,7 @@
             padding-right: 3px;
         }
         
-        #menu a {
+        #menu a{
             font-weight: bold;
             font-size: 15px;
             text-decoration: rgb(0, 0, 0);
@@ -44,12 +38,13 @@
             background-color: rgba(238, 169, 99, 0.904);
             padding: 15px;
             border: 1px solid rgb(122, 64, 9)
-            
         }
-        
-        #menu a:hover {
+        #menu a:hover{
             background-color: rgb(255, 212, 155);
-            font-size: 16px;
+            font-size: 17px;
+        }
+        #menu a:active{
+            background-color: bisque;
         }
         #paragraph{
             padding-left: 0px;
@@ -58,8 +53,8 @@
             margin-top: 20px;
             position: relative;
             right: -100px;
-            top: -20px;
-            font-size: 18px;
+            top: -30px;
+            font-size: 20px;
             font-weight: 200;
             font-variant: small-caps;
         }
@@ -76,6 +71,31 @@
         #blog
         {
             margin-left: 100px; 
+            font-size: 15px;
+            font-weight: bold;
+            font-variant: small-caps;
+        }
+        #blog2
+        {
+            margin-left: 500px; 
+            font-size: 30px;
+            font-weight: 300;
+            font-variant: small-caps;
+            position: relative;
+            right: -200px;
+            top: -680px;
+        }
+        #a{
+            color: black;
+        }
+        #contacts
+        {
+            background-color: rgba(80, 45, 5, 0.876);
+            position: relative;
+            width: 10000;
+            height: 50px;
+            color: whitesmoke;
+            top: -100px;
             font-size: 15px;
             font-weight: bold;
             font-variant: small-caps;
