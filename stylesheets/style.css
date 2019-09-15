@@ -43,8 +43,8 @@
             background-color: rgb(255, 212, 155);
             font-size: 17px;
         }
-        #menu a:active{
-            background-color: bisque;
+        #active{
+            border: 2px solid rgb(255, 34, 34);
         }
         #paragraph{
             text-align: left;
